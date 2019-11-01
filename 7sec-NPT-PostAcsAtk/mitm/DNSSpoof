@@ -1,0 +1,6 @@
+Redirect people to our server. In this case, our local server.
+> service apache2 start
+> leafpad /etc/mitmf/mitmf.conf
+Scroll until the "A" records (They are responsible to translate 
+domain names in IP addresses). So you can change or add some IPs.
+Then run 'mitmf' WITH ONE EXTRA OPTION --dns.

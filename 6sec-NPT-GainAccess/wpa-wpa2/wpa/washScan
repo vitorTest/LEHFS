@@ -1,0 +1,40 @@
+BSSID               Ch  dBm  WPS  Lck  Vendor    ESSID
+--------------------------------------------------------------------------------
+C8:91:F9:E8:FA:86    1  -75  2.0  No   Broadcom  GVT-FA80
+7C:05:07:00:77:26    1  -77  2.0  No   Broadcom  WIFI_DO_PAMPAM
+54:B8:0A:F0:4F:8A    2  -85  2.0  No   RealtekS  GVT-4F8A
+D4:63:FE:17:E3:42    6  -81  2.0  No   Broadcom  VIVO-E341
+20:10:7A:E7:BE:76    6  -81  2.0  No   Broadcom  2G_NETVITUA_416/203
+8C:09:F4:8C:0B:A0    6  -90  2.0  No   RalinkTe  net virtua ap 404
+64:66:B3:5C:3C:CA    6  -89  1.0  No   AtherosC  Valdizia
+F8:1A:67:5D:B6:FE    7  -86  1.0  No   AtherosC  Word
+90:94:E4:CD:BB:0C    7  -88  2.0  No   RealtekS  Solares Atlanta
+18:A6:F7:9C:C6:20    7  -78  1.0  No   AtherosC  Arthur 
+94:2C:B3:F3:5D:87    8  -85  2.0  No   Broadcom  Wnetclaro2.4
+78:44:76:93:B0:34   10  -82  2.0  No   RealtekS  VIVO-4C00
+EC:22:80:9A:51:A9   10  -85  2.0  No   RealtekS  Residencial
+EC:22:80:09:CE:A7   10  -84  2.0  No   RealtekS  GVT-CEA7
+2C:E4:12:7E:CB:29   11  -83  1.0  No   AtherosC  GVT-CB25
+64:66:B3:6E:3F:74   11  -86  1.0  No   AtherosC  TP-LINK_6E3F74
+D4:63:FE:3D:EA:AC   11  -91  2.0  No   Broadcom  VIVO-EAAB
+0A:37:90:DF:73:AB   11  -69  2.0  No   RealtekS  Jampa
+9E:B8:AE:2B:8A:E2   11  -86  2.0  No   RealtekS  GVT-BFBA
+50:C7:BF:52:F9:6F   11  -90  2.0  No   AtherosC  Lunga
+00:E0:4C:6A:6B:30   11  -84  2.0  No   RealtekS  PESQUEIRA
+8C:10:D4:C0:CA:70    1  -87  2.0  No   Broadcom  Maise
+5C:DC:96:D1:BA:99    1  -83  2.0  No   Broadcom  GVT-BA98
+AC:C6:62:24:56:E0   11  -85  2.0  No   RalinkTe  VIVO-56E0
+2C:E4:12:C4:23:F0   11  -89  1.0  No   AtherosC  GVT-23EC
+08:95:2A:0B:63:CF    1  -89  2.0  No   Broadcom  Net virtua 368104
+84:E0:58:13:F0:34    1  -88  2.0  No   Broadcom  GVT-F034
+78:44:76:85:0C:B8    3  -81  2.0  No   RealtekS  WPOS
+F8:35:DD:13:50:7A    1  -87  2.0  No   Broadcom  MOTOROLA-3FACC
+58:10:8C:91:C9:DD   11  -87  2.0  No   RealtekS  Hino
+40:C7:29:82:80:16   11  -86  2.0  No   Broadcom  VIVO-8010
+94:2C:B3:08:C7:6A    1  -89  2.0  No   Broadcom  Netvirtua375402
+18:A6:F7:A7:8F:5E    8  -91  1.0  No   AtherosC  TP-LINK_8F5E
+2C:39:96:86:9F:68    1  -90  1.0  No   AtherosC  GVT-9F64
+AC:C6:62:C9:4C:00   10  -87  2.0  No   RalinkTe  VIVO-4C00
+2C:E4:12:C3:D7:97   11  -84  1.0  No   AtherosC  GVT-D793
+5C:DC:96:CA:CC:1D    1  -80  2.0  No   Broadcom  GVT-CC1C
+4C:D0:8A:DC:4B:4C   11  -91  2.0  No   Broadcom  netvirtua440304

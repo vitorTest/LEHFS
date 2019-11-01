@@ -1,0 +1,51 @@
+Capturing WPA packets is not useful , they don't have info that leads
+to crack the key. Only handshake packets have this type of info.
+The connection with AP in WAP is maded by a four way hand shake. So
+we have to capture the handshake to use aircrack with a word list to 
+try to determine the key. So we need:
+|Capture the handshake
+|A wordlist
+
+|CAPTURING THE HANDSHAKE
+1. Airodump on them
+> airodump-ng --channel [channel] --bssid [targ MAC]/
+   --write [fileName] [interface]
+
+2. Wait for a client to connect to the AP, or deauth a connected
+client for a very short period of time so that their system will
+connect back automatically
+> aireplay-ng --death [number of death packs] /
+  -a [AP] -c [target] [interface]
+
+
+|Using a wordlist
+With the handshake capturated now you can download or create a 
+wordlist. There's 'Some-Links-To-Wordlists ;). Now we'll learn
+to creat our own lists, using crunch.
+> ./crunch [min] [max] /
+  [characters=lower|upper|numbers|symbols]
+  -t [pattern] -o file
+#ex. of pattern: a@@@@@b = always start with 'a' and ends with 'b'
+
+|Final - Using Aircrack
+Now is brute force combining each word in the wordlist with AP ESSID
+to compute a Pairwise Master Key (PMK) using pbkdf2 algorithm, the
+PMK is the compared to the handshake file.
+> aircrack-ng [HANDSHAKE FILE] -w [WORDLIST]
+
+#I've used the characters="tyujeth20133245" and only 8-8(min-max)
+#knowing that the password was 'jeth2013' and the archive.txt 
+#generated was more then 3GB size.
+#After that we have to use aircrack that will to execute the 
+#algorithms, and on my "medium" PC, that would had take 
+#3 days and 15 hours to use all the phrases. I'd take more than
+#30 minutes and the aircrack is at the word 'aat1f2b7' on
+#0.22% fo the document.
+#So we can see that's possible, but not with our current 
+#processing power. A list with all numbers and lower chars, would
+#have almost 700 PB! Only to store this! With a huge center of 
+#processing, that would take months only to generate the list, so
+#imagine proccess that list. Humanity still without capacity to
+#generate and test each word to find the pass, considering 
+#a full-case-scenary, like words from 8 to 63 lenghts, all chars 
+#lower and upper, all numbers and symbols!

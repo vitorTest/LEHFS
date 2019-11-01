@@ -1,0 +1,5 @@
+Use mitmf normaly (--arp --spoof etc) and add the option '--screen',
+if you want a interval to take the screen shots use option --interval.
+(Hardly works).
+
+worth a shot to see all options at --help :)

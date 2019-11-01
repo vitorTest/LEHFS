@@ -1,0 +1,15 @@
+We can inject packets into the trafic. But we have to authenticate our wifi
+card with the AP, because AP's ignore any requests that come from devices 
+that are not associated with the AP. This can be done easily using airmon-ng
+
+1. Fake authentication
+> aireplay-ng --fakeauth 0 -a [target MAC] -h [My MAC] [interface]
+
+if this fake authentication was successful the value under the "AUTH" 
+column in airodump-ng will change to "OPN"
+
+2. Now we have to wait for an ARP packet, and capture it and inject
+it into the traffic. This will force the AP to generate a new ARP packet with a new IV, we capture this new packet and inject into the traffic again, this process is repeated until the number of IV's
+captured is sufficient enough to crack the key
+> aireplay-ng --arpreplay -b [targ MAC] -h [my MAC] [interface]
+

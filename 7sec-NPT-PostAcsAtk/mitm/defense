@@ -1,0 +1,11 @@
+Install XArp.
+or 
+With wireshark, enable:
++ edit > preferences > Protocols > ARP/RARP > Detect ARP requests storms
+you'll be able to detect if someone tryed to discover all devices
+in the network.
+
+
+|Preventing|
+Use static IP tables, instead the dynamics (configuring one by one, every time that you
+connect at network)

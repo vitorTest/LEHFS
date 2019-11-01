@@ -1,0 +1,12 @@
+1. Trying by WPS.
+Looking for networks with enabled WPS feature:
+> wash -i wlan0mon
+
+So we can brute force to find the 8 digit long pin that WPS
+uses to auth (Average 10 hours). 
+Then you can try bruteforce to find the PIN with reaver, and
+find the PSK:
+> reaver -b [targ MAC] -c 11 -i wlan0mon
+
+You will have to use options to try to connect, because some 
+routers will block you, after some attempts. (--help)
